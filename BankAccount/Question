@@ -1,0 +1,55 @@
+Certainly! Here's a Java object-oriented programming (OOP) question for you:
+
+**Question:**
+
+You are designing a simple banking application. Create a Java class called `BankAccount`
+that represents a bank account. The `BankAccount` class should have the following attributes and methods:
+
+Attributes:
+1. `accountNumber` (a unique integer for each account)
+2. `accountHolderName` (a string for the name of the account holder)
+3. `balance` (a double to represent the account balance)
+
+Methods:
+1. `deposit(double amount)` - Adds the specified amount to the account balance.
+2. `withdraw(double amount)` - Subtracts the specified amount from the account balance.
+3. `getBalance()` - Returns the current account balance.
+4. `toString()` - Returns a string representation of the account in the following format: "Account Number: [accountNumber], Holder: [accountHolderName], Balance: [balance]"
+
+Additionally, create a Java program that demonstrates the use of the `BankAccount` class.
+You should create two `BankAccount` objects, perform some deposits and withdrawals, and print the account details.
+
+
+
+
+
+Here's a basic template to get you started:
+
+```java
+public class BankAccount {
+    // Attributes and methods as described above
+
+    // Constructor, getters, and setters (if needed)
+
+    @Override
+    public String toString() {
+        // Implement the toString method
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Create two BankAccount objects
+
+        // Perform deposits and withdrawals
+
+        // Print account details
+    }
+}
+```
+
+
+
+Try to implement the `BankAccount` class and the demonstration program on your own.
+This exercise will help you improve your OOP skills in Java.
+If you have any questions or need assistance, feel free to ask.
