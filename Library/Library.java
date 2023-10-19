@@ -6,8 +6,6 @@ public class Library {
     private String libraryName;
     private Book book;
 
-    public Library(){
-    }
     public  Library(String libraryName){
         setLibraryName(libraryName);
     }
@@ -46,6 +44,7 @@ public class Library {
             throw new IllegalArgumentException("the book with that title is already exist in the library");
         }
     }
+
 
     public void remove(String title){
         if(exist(title)){
